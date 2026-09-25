@@ -1,0 +1,9 @@
+{
+  "texture": "gravel",
+  "method": "s3tc",
+  "psnr": 33.00074890169661,
+  "stored_bytes": 131072,
+  "raw_bytes": 786432,
+  "ratio": 0.16666666666666666,
+  "factor": 6.0
+}

@@ -1,0 +1,221 @@
+{
+  "texture": "gradient",
+  "architecture": "medium",
+  "width": 512,
+  "height": 512,
+  "source_sha256": "0e48890d9ff2f74dcd5a555cc5e38f0fda051cc5957700f24b1b852d4da36446",
+  "raw_bytes": 786432,
+  "training": {
+    "history": [
+      {
+        "step": 0,
+        "psnr": 15.067637697267202,
+        "elapsed_seconds": 0.018608333994052373
+      },
+      {
+        "step": 100,
+        "psnr": 52.457362609720974,
+        "elapsed_seconds": 0.44058720899920445
+      },
+      {
+        "step": 200,
+        "psnr": 57.3164928523654,
+        "elapsed_seconds": 0.8651883749989793
+      },
+      {
+        "step": 300,
+        "psnr": 58.065051447704754,
+        "elapsed_seconds": 1.2871822089946363
+      },
+      {
+        "step": 400,
+        "psnr": 58.26437828234371,
+        "elapsed_seconds": 1.7184229999984382
+      },
+      {
+        "step": 500,
+        "psnr": 58.41035660978672,
+        "elapsed_seconds": 2.152190583990887
+      },
+      {
+        "step": 600,
+        "psnr": 58.385067843907166,
+        "elapsed_seconds": 2.5839203340001404
+      },
+      {
+        "step": 700,
+        "psnr": 56.47986372683181,
+        "elapsed_seconds": 3.0083617089985637
+      },
+      {
+        "step": 800,
+        "psnr": 57.30420296403593,
+        "elapsed_seconds": 3.4294607089977944
+      },
+      {
+        "step": 900,
+        "psnr": 58.52259690358785,
+        "elapsed_seconds": 3.9591904999979306
+      },
+      {
+        "step": 1000,
+        "psnr": 53.47395995035333,
+        "elapsed_seconds": 4.3935915420006495
+      },
+      {
+        "step": 1100,
+        "psnr": 55.119981278065254,
+        "elapsed_seconds": 4.820730041989009
+      },
+      {
+        "step": 1200,
+        "psnr": 58.09514093411873,
+        "elapsed_seconds": 5.238554374998785
+      },
+      {
+        "step": 1300,
+        "psnr": 51.58053427834037,
+        "elapsed_seconds": 5.670009624998784
+      },
+      {
+        "step": 1400,
+        "psnr": 58.21208860428733,
+        "elapsed_seconds": 6.151941624993924
+      },
+      {
+        "step": 1500,
+        "psnr": 57.62257564054801,
+        "elapsed_seconds": 6.593267292002565
+      },
+      {
+        "step": 1600,
+        "psnr": 57.42094099657848,
+        "elapsed_seconds": 7.014375041995663
+      },
+      {
+        "step": 1700,
+        "psnr": 58.546570277933995,
+        "elapsed_seconds": 7.432780959003139
+      },
+      {
+        "step": 1800,
+        "psnr": 56.95238341886193,
+        "elapsed_seconds": 7.8507558749988675
+      },
+      {
+        "step": 1900,
+        "psnr": 55.714162670917645,
+        "elapsed_seconds": 8.265141958996537
+      },
+      {
+        "step": 2000,
+        "psnr": 56.78572035586531,
+        "elapsed_seconds": 8.688624041998992
+      }
+    ],
+    "minibatch_losses": [
+      {
+        "step": 100,
+        "minibatch_mse": 5.922200216446072e-06
+      },
+      {
+        "step": 200,
+        "minibatch_mse": 1.8734768900685594e-06
+      },
+      {
+        "step": 300,
+        "minibatch_mse": 1.5648247426724993e-06
+      },
+      {
+        "step": 400,
+        "minibatch_mse": 1.509022354184708e-06
+      },
+      {
+        "step": 500,
+        "minibatch_mse": 1.4393373248822172e-06
+      },
+      {
+        "step": 600,
+        "minibatch_mse": 1.4594357935493463e-06
+      },
+      {
+        "step": 700,
+        "minibatch_mse": 2.2656574856227962e-06
+      },
+      {
+        "step": 800,
+        "minibatch_mse": 1.669746211518941e-06
+      },
+      {
+        "step": 900,
+        "minibatch_mse": 1.4013263580636703e-06
+      },
+      {
+        "step": 1000,
+        "minibatch_mse": 4.714229362434708e-06
+      },
+      {
+        "step": 1100,
+        "minibatch_mse": 2.2576898572879145e-06
+      },
+      {
+        "step": 1200,
+        "minibatch_mse": 1.4877904277454945e-06
+      },
+      {
+        "step": 1300,
+        "minibatch_mse": 9.32861803448759e-06
+      },
+      {
+        "step": 1400,
+        "minibatch_mse": 1.5007511819931096e-06
+      },
+      {
+        "step": 1500,
+        "minibatch_mse": 1.7064584199033561e-06
+      },
+      {
+        "step": 1600,
+        "minibatch_mse": 1.6289408222291968e-06
+      },
+      {
+        "step": 1700,
+        "minibatch_mse": 1.3861400702808169e-06
+      },
+      {
+        "step": 1800,
+        "minibatch_mse": 1.844113626248145e-06
+      },
+      {
+        "step": 1900,
+        "minibatch_mse": 1.9615729343058774e-06
+      },
+      {
+        "step": 2000,
+        "minibatch_mse": 2.1425360046123387e-06
+      }
+    ],
+    "seed": 675,
+    "steps": 2000,
+    "batch_size": 16384,
+    "lr": 0.01,
+    "device": "cpu",
+    "seconds": 8.688740999990841
+  },
+  "float32": {
+    "stored_bytes": 62220,
+    "file_bytes": 62305,
+    "header_bytes": 85,
+    "psnr": 56.78572035586531,
+    "ratio": 0.0791168212890625,
+    "factor": 12.63953712632594
+  },
+  "uint8": {
+    "stored_bytes": 29988,
+    "file_bytes": 30117,
+    "header_bytes": 129,
+    "psnr": 56.47129106350208,
+    "ratio": 0.0381317138671875,
+    "factor": 26.224889955982395
+  }
+}

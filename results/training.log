@@ -1,0 +1,433 @@
+{'python': '3.12.4', 'torch': '2.14.0', 'numpy': '2.5.3', 'platform': 'macOS-26.2-arm64-arm-64bit', 'device': 'cpu', 'threads': 4}
+
+Training gradient/small
+small  step=   0 full-image PSNR=15.046 dB elapsed=0.0s
+small  step= 100 full-image PSNR=45.956 dB elapsed=0.4s
+small  step= 200 full-image PSNR=55.277 dB elapsed=0.7s
+small  step= 300 full-image PSNR=53.060 dB elapsed=1.1s
+small  step= 400 full-image PSNR=56.222 dB elapsed=1.4s
+small  step= 500 full-image PSNR=57.093 dB elapsed=1.8s
+small  step= 600 full-image PSNR=57.128 dB elapsed=2.1s
+small  step= 700 full-image PSNR=55.476 dB elapsed=2.5s
+small  step= 800 full-image PSNR=57.360 dB elapsed=2.8s
+small  step= 900 full-image PSNR=57.360 dB elapsed=3.2s
+small  step=1000 full-image PSNR=54.545 dB elapsed=3.5s
+small  step=1100 full-image PSNR=48.609 dB elapsed=3.8s
+small  step=1200 full-image PSNR=53.095 dB elapsed=4.2s
+small  step=1300 full-image PSNR=57.369 dB elapsed=4.5s
+small  step=1400 full-image PSNR=56.115 dB elapsed=4.9s
+small  step=1500 full-image PSNR=57.490 dB elapsed=5.2s
+small  step=1600 full-image PSNR=57.463 dB elapsed=5.6s
+small  step=1700 full-image PSNR=55.961 dB elapsed=5.9s
+small  step=1800 full-image PSNR=53.670 dB elapsed=6.3s
+small  step=1900 full-image PSNR=55.997 dB elapsed=6.6s
+small  step=2000 full-image PSNR=56.786 dB elapsed=6.9s
+FINISHED gradient/small: FP32 56.786, uint8 55.681
+
+Training gradient/medium
+medium step=   0 full-image PSNR=15.068 dB elapsed=0.0s
+medium step= 100 full-image PSNR=52.457 dB elapsed=0.4s
+medium step= 200 full-image PSNR=57.316 dB elapsed=0.9s
+medium step= 300 full-image PSNR=58.065 dB elapsed=1.3s
+medium step= 400 full-image PSNR=58.264 dB elapsed=1.7s
+medium step= 500 full-image PSNR=58.410 dB elapsed=2.2s
+medium step= 600 full-image PSNR=58.385 dB elapsed=2.6s
+medium step= 700 full-image PSNR=56.480 dB elapsed=3.0s
+medium step= 800 full-image PSNR=57.304 dB elapsed=3.4s
+medium step= 900 full-image PSNR=58.523 dB elapsed=4.0s
+medium step=1000 full-image PSNR=53.474 dB elapsed=4.4s
+medium step=1100 full-image PSNR=55.120 dB elapsed=4.8s
+medium step=1200 full-image PSNR=58.095 dB elapsed=5.2s
+medium step=1300 full-image PSNR=51.581 dB elapsed=5.7s
+medium step=1400 full-image PSNR=58.212 dB elapsed=6.2s
+medium step=1500 full-image PSNR=57.623 dB elapsed=6.6s
+medium step=1600 full-image PSNR=57.421 dB elapsed=7.0s
+medium step=1700 full-image PSNR=58.547 dB elapsed=7.4s
+medium step=1800 full-image PSNR=56.952 dB elapsed=7.9s
+medium step=1900 full-image PSNR=55.714 dB elapsed=8.3s
+medium step=2000 full-image PSNR=56.786 dB elapsed=8.7s
+FINISHED gradient/medium: FP32 56.786, uint8 56.471
+
+Training gradient/large
+large  step=   0 full-image PSNR=14.031 dB elapsed=0.0s
+large  step= 100 full-image PSNR=51.682 dB elapsed=0.7s
+large  step= 200 full-image PSNR=58.431 dB elapsed=1.3s
+large  step= 300 full-image PSNR=58.990 dB elapsed=1.9s
+large  step= 400 full-image PSNR=59.089 dB elapsed=2.6s
+large  step= 500 full-image PSNR=59.092 dB elapsed=3.2s
+large  step= 600 full-image PSNR=58.897 dB elapsed=3.9s
+large  step= 700 full-image PSNR=59.136 dB elapsed=4.7s
+large  step= 800 full-image PSNR=58.022 dB elapsed=5.4s
+large  step= 900 full-image PSNR=46.457 dB elapsed=6.2s
+large  step=1000 full-image PSNR=59.061 dB elapsed=7.0s
+large  step=1100 full-image PSNR=57.103 dB elapsed=7.7s
+large  step=1200 full-image PSNR=58.146 dB elapsed=8.4s
+large  step=1300 full-image PSNR=58.945 dB elapsed=9.2s
+large  step=1400 full-image PSNR=57.572 dB elapsed=9.8s
+large  step=1500 full-image PSNR=59.183 dB elapsed=10.4s
+large  step=1600 full-image PSNR=58.593 dB elapsed=11.1s
+large  step=1700 full-image PSNR=58.543 dB elapsed=11.7s
+large  step=1800 full-image PSNR=56.890 dB elapsed=12.4s
+large  step=1900 full-image PSNR=54.006 dB elapsed=13.1s
+large  step=2000 full-image PSNR=57.228 dB elapsed=13.8s
+FINISHED gradient/large: FP32 57.228, uint8 56.994
+
+Training bricks/small
+small  step=   0 full-image PSNR=12.832 dB elapsed=0.0s
+small  step= 100 full-image PSNR=23.816 dB elapsed=0.4s
+small  step= 200 full-image PSNR=26.185 dB elapsed=0.7s
+small  step= 300 full-image PSNR=28.466 dB elapsed=1.0s
+small  step= 400 full-image PSNR=29.594 dB elapsed=1.4s
+small  step= 500 full-image PSNR=30.533 dB elapsed=1.7s
+small  step= 600 full-image PSNR=31.006 dB elapsed=2.0s
+small  step= 700 full-image PSNR=31.160 dB elapsed=2.4s
+small  step= 800 full-image PSNR=31.355 dB elapsed=2.9s
+small  step= 900 full-image PSNR=31.615 dB elapsed=3.3s
+small  step=1000 full-image PSNR=31.768 dB elapsed=3.7s
+small  step=1100 full-image PSNR=32.057 dB elapsed=4.1s
+small  step=1200 full-image PSNR=32.018 dB elapsed=4.5s
+small  step=1300 full-image PSNR=31.981 dB elapsed=5.1s
+small  step=1400 full-image PSNR=32.058 dB elapsed=5.5s
+small  step=1500 full-image PSNR=32.542 dB elapsed=6.0s
+small  step=1600 full-image PSNR=32.513 dB elapsed=6.4s
+small  step=1700 full-image PSNR=32.318 dB elapsed=6.7s
+small  step=1800 full-image PSNR=32.502 dB elapsed=7.1s
+small  step=1900 full-image PSNR=32.734 dB elapsed=7.4s
+small  step=2000 full-image PSNR=32.877 dB elapsed=7.7s
+FINISHED bricks/small: FP32 32.877, uint8 32.476
+
+Training bricks/medium
+medium step=   0 full-image PSNR=12.995 dB elapsed=0.0s
+medium step= 100 full-image PSNR=25.363 dB elapsed=0.5s
+medium step= 200 full-image PSNR=29.964 dB elapsed=0.9s
+medium step= 300 full-image PSNR=31.348 dB elapsed=1.3s
+medium step= 400 full-image PSNR=32.219 dB elapsed=1.7s
+medium step= 500 full-image PSNR=32.158 dB elapsed=2.2s
+medium step= 600 full-image PSNR=32.876 dB elapsed=2.6s
+medium step= 700 full-image PSNR=33.543 dB elapsed=3.0s
+medium step= 800 full-image PSNR=34.105 dB elapsed=3.5s
+medium step= 900 full-image PSNR=34.025 dB elapsed=3.9s
+medium step=1000 full-image PSNR=34.497 dB elapsed=4.4s
+medium step=1100 full-image PSNR=34.139 dB elapsed=4.8s
+medium step=1200 full-image PSNR=35.384 dB elapsed=5.2s
+medium step=1300 full-image PSNR=35.200 dB elapsed=5.7s
+medium step=1400 full-image PSNR=35.743 dB elapsed=6.1s
+medium step=1500 full-image PSNR=35.514 dB elapsed=6.5s
+medium step=1600 full-image PSNR=36.465 dB elapsed=7.0s
+medium step=1700 full-image PSNR=36.211 dB elapsed=7.4s
+medium step=1800 full-image PSNR=36.016 dB elapsed=7.9s
+medium step=1900 full-image PSNR=36.600 dB elapsed=8.3s
+medium step=2000 full-image PSNR=35.765 dB elapsed=8.8s
+FINISHED bricks/medium: FP32 35.765, uint8 35.636
+
+Training bricks/large
+large  step=   0 full-image PSNR=12.717 dB elapsed=0.0s
+large  step= 100 full-image PSNR=35.764 dB elapsed=0.7s
+large  step= 200 full-image PSNR=41.078 dB elapsed=1.4s
+large  step= 300 full-image PSNR=44.027 dB elapsed=2.0s
+large  step= 400 full-image PSNR=44.515 dB elapsed=2.6s
+large  step= 500 full-image PSNR=45.535 dB elapsed=3.3s
+large  step= 600 full-image PSNR=48.089 dB elapsed=3.9s
+large  step= 700 full-image PSNR=49.059 dB elapsed=4.5s
+large  step= 800 full-image PSNR=51.844 dB elapsed=5.2s
+large  step= 900 full-image PSNR=50.589 dB elapsed=6.1s
+large  step=1000 full-image PSNR=50.857 dB elapsed=6.8s
+large  step=1100 full-image PSNR=46.368 dB elapsed=7.5s
+large  step=1200 full-image PSNR=51.817 dB elapsed=8.2s
+large  step=1300 full-image PSNR=47.471 dB elapsed=8.9s
+large  step=1400 full-image PSNR=48.716 dB elapsed=9.6s
+large  step=1500 full-image PSNR=47.373 dB elapsed=10.3s
+large  step=1600 full-image PSNR=47.443 dB elapsed=11.0s
+large  step=1700 full-image PSNR=44.213 dB elapsed=11.7s
+large  step=1800 full-image PSNR=41.262 dB elapsed=12.4s
+large  step=1900 full-image PSNR=41.312 dB elapsed=13.2s
+large  step=2000 full-image PSNR=39.684 dB elapsed=13.8s
+FINISHED bricks/large: FP32 39.684, uint8 39.689
+
+Training clouds/small
+small  step=   0 full-image PSNR=9.357 dB elapsed=0.0s
+small  step= 100 full-image PSNR=31.495 dB elapsed=0.4s
+small  step= 200 full-image PSNR=36.198 dB elapsed=0.7s
+small  step= 300 full-image PSNR=36.638 dB elapsed=1.1s
+small  step= 400 full-image PSNR=37.165 dB elapsed=1.5s
+small  step= 500 full-image PSNR=37.903 dB elapsed=2.0s
+small  step= 600 full-image PSNR=37.953 dB elapsed=2.4s
+small  step= 700 full-image PSNR=37.758 dB elapsed=2.8s
+small  step= 800 full-image PSNR=38.131 dB elapsed=3.2s
+small  step= 900 full-image PSNR=37.977 dB elapsed=3.7s
+small  step=1000 full-image PSNR=38.162 dB elapsed=4.1s
+small  step=1100 full-image PSNR=38.344 dB elapsed=4.4s
+small  step=1200 full-image PSNR=38.451 dB elapsed=4.8s
+small  step=1300 full-image PSNR=37.798 dB elapsed=5.2s
+small  step=1400 full-image PSNR=37.595 dB elapsed=5.6s
+small  step=1500 full-image PSNR=38.486 dB elapsed=5.9s
+small  step=1600 full-image PSNR=38.489 dB elapsed=6.3s
+small  step=1700 full-image PSNR=38.759 dB elapsed=6.6s
+small  step=1800 full-image PSNR=38.834 dB elapsed=7.0s
+small  step=1900 full-image PSNR=39.082 dB elapsed=7.3s
+small  step=2000 full-image PSNR=39.059 dB elapsed=7.7s
+FINISHED clouds/small: FP32 39.059, uint8 38.993
+
+Training clouds/medium
+medium step=   0 full-image PSNR=9.209 dB elapsed=0.0s
+medium step= 100 full-image PSNR=33.885 dB elapsed=0.6s
+medium step= 200 full-image PSNR=37.369 dB elapsed=1.0s
+medium step= 300 full-image PSNR=38.223 dB elapsed=1.4s
+medium step= 400 full-image PSNR=38.678 dB elapsed=1.8s
+medium step= 500 full-image PSNR=38.969 dB elapsed=2.2s
+medium step= 600 full-image PSNR=39.052 dB elapsed=2.7s
+medium step= 700 full-image PSNR=39.284 dB elapsed=3.1s
+medium step= 800 full-image PSNR=39.404 dB elapsed=3.6s
+medium step= 900 full-image PSNR=39.448 dB elapsed=4.0s
+medium step=1000 full-image PSNR=39.605 dB elapsed=4.5s
+medium step=1100 full-image PSNR=39.633 dB elapsed=4.9s
+medium step=1200 full-image PSNR=39.777 dB elapsed=5.3s
+medium step=1300 full-image PSNR=39.875 dB elapsed=5.8s
+medium step=1400 full-image PSNR=39.911 dB elapsed=6.2s
+medium step=1500 full-image PSNR=40.137 dB elapsed=6.6s
+medium step=1600 full-image PSNR=39.420 dB elapsed=7.0s
+medium step=1700 full-image PSNR=40.398 dB elapsed=7.5s
+medium step=1800 full-image PSNR=40.510 dB elapsed=8.0s
+medium step=1900 full-image PSNR=40.529 dB elapsed=8.6s
+medium step=2000 full-image PSNR=40.473 dB elapsed=9.1s
+FINISHED clouds/medium: FP32 40.473, uint8 40.426
+
+Training clouds/large
+large  step=   0 full-image PSNR=9.489 dB elapsed=0.0s
+large  step= 100 full-image PSNR=33.968 dB elapsed=0.8s
+large  step= 200 full-image PSNR=43.402 dB elapsed=1.5s
+large  step= 300 full-image PSNR=46.064 dB elapsed=2.2s
+large  step= 400 full-image PSNR=47.276 dB elapsed=3.0s
+large  step= 500 full-image PSNR=47.960 dB elapsed=3.7s
+large  step= 600 full-image PSNR=48.389 dB elapsed=4.4s
+large  step= 700 full-image PSNR=48.514 dB elapsed=5.2s
+large  step= 800 full-image PSNR=48.778 dB elapsed=5.9s
+large  step= 900 full-image PSNR=48.978 dB elapsed=6.7s
+large  step=1000 full-image PSNR=49.075 dB elapsed=7.4s
+large  step=1100 full-image PSNR=47.974 dB elapsed=8.1s
+large  step=1200 full-image PSNR=49.269 dB elapsed=8.9s
+large  step=1300 full-image PSNR=48.987 dB elapsed=9.7s
+large  step=1400 full-image PSNR=49.040 dB elapsed=10.4s
+large  step=1500 full-image PSNR=49.031 dB elapsed=11.2s
+large  step=1600 full-image PSNR=48.284 dB elapsed=11.9s
+large  step=1700 full-image PSNR=49.418 dB elapsed=12.6s
+large  step=1800 full-image PSNR=49.286 dB elapsed=13.4s
+large  step=1900 full-image PSNR=47.299 dB elapsed=14.1s
+large  step=2000 full-image PSNR=49.521 dB elapsed=14.8s
+FINISHED clouds/large: FP32 49.521, uint8 49.407
+
+Training brick_photo/small
+small  step=   0 full-image PSNR=18.833 dB elapsed=0.0s
+small  step= 100 full-image PSNR=27.220 dB elapsed=0.4s
+small  step= 200 full-image PSNR=29.927 dB elapsed=0.9s
+small  step= 300 full-image PSNR=30.592 dB elapsed=1.3s
+small  step= 400 full-image PSNR=30.916 dB elapsed=1.7s
+small  step= 500 full-image PSNR=31.080 dB elapsed=2.1s
+small  step= 600 full-image PSNR=31.340 dB elapsed=2.5s
+small  step= 700 full-image PSNR=31.371 dB elapsed=2.9s
+small  step= 800 full-image PSNR=31.682 dB elapsed=3.3s
+small  step= 900 full-image PSNR=31.803 dB elapsed=3.8s
+small  step=1000 full-image PSNR=31.893 dB elapsed=4.2s
+small  step=1100 full-image PSNR=32.022 dB elapsed=4.5s
+small  step=1200 full-image PSNR=32.019 dB elapsed=4.9s
+small  step=1300 full-image PSNR=32.064 dB elapsed=5.3s
+small  step=1400 full-image PSNR=32.151 dB elapsed=5.7s
+small  step=1500 full-image PSNR=32.006 dB elapsed=6.1s
+small  step=1600 full-image PSNR=31.797 dB elapsed=6.5s
+small  step=1700 full-image PSNR=32.261 dB elapsed=6.9s
+small  step=1800 full-image PSNR=32.313 dB elapsed=7.3s
+small  step=1900 full-image PSNR=32.332 dB elapsed=7.9s
+small  step=2000 full-image PSNR=32.257 dB elapsed=8.3s
+FINISHED brick_photo/small: FP32 32.257, uint8 32.084
+
+Training brick_photo/medium
+medium step=   0 full-image PSNR=18.399 dB elapsed=0.0s
+medium step= 100 full-image PSNR=28.407 dB elapsed=0.5s
+medium step= 200 full-image PSNR=30.371 dB elapsed=1.0s
+medium step= 300 full-image PSNR=31.997 dB elapsed=1.5s
+medium step= 400 full-image PSNR=32.442 dB elapsed=2.0s
+medium step= 500 full-image PSNR=33.221 dB elapsed=2.4s
+medium step= 600 full-image PSNR=33.498 dB elapsed=2.9s
+medium step= 700 full-image PSNR=33.718 dB elapsed=3.4s
+medium step= 800 full-image PSNR=33.891 dB elapsed=3.9s
+medium step= 900 full-image PSNR=33.919 dB elapsed=4.4s
+medium step=1000 full-image PSNR=34.095 dB elapsed=4.8s
+medium step=1100 full-image PSNR=34.258 dB elapsed=5.3s
+medium step=1200 full-image PSNR=34.417 dB elapsed=5.7s
+medium step=1300 full-image PSNR=34.484 dB elapsed=6.1s
+medium step=1400 full-image PSNR=34.611 dB elapsed=6.6s
+medium step=1500 full-image PSNR=34.615 dB elapsed=7.0s
+medium step=1600 full-image PSNR=34.771 dB elapsed=7.5s
+medium step=1700 full-image PSNR=34.819 dB elapsed=7.9s
+medium step=1800 full-image PSNR=34.757 dB elapsed=8.4s
+medium step=1900 full-image PSNR=34.950 dB elapsed=9.0s
+medium step=2000 full-image PSNR=35.122 dB elapsed=9.4s
+FINISHED brick_photo/medium: FP32 35.122, uint8 34.926
+
+Training brick_photo/large
+large  step=   0 full-image PSNR=17.474 dB elapsed=0.0s
+large  step= 100 full-image PSNR=33.970 dB elapsed=0.6s
+large  step= 200 full-image PSNR=37.398 dB elapsed=1.3s
+large  step= 300 full-image PSNR=39.260 dB elapsed=1.9s
+large  step= 400 full-image PSNR=40.559 dB elapsed=2.5s
+large  step= 500 full-image PSNR=40.810 dB elapsed=3.1s
+large  step= 600 full-image PSNR=41.531 dB elapsed=3.8s
+large  step= 700 full-image PSNR=41.783 dB elapsed=4.4s
+large  step= 800 full-image PSNR=42.112 dB elapsed=5.0s
+large  step= 900 full-image PSNR=42.216 dB elapsed=5.6s
+large  step=1000 full-image PSNR=42.528 dB elapsed=6.3s
+large  step=1100 full-image PSNR=42.589 dB elapsed=7.0s
+large  step=1200 full-image PSNR=42.617 dB elapsed=7.7s
+large  step=1300 full-image PSNR=42.803 dB elapsed=8.4s
+large  step=1400 full-image PSNR=43.094 dB elapsed=9.0s
+large  step=1500 full-image PSNR=43.157 dB elapsed=9.8s
+large  step=1600 full-image PSNR=43.253 dB elapsed=10.5s
+large  step=1700 full-image PSNR=42.540 dB elapsed=11.5s
+large  step=1800 full-image PSNR=43.455 dB elapsed=12.3s
+large  step=1900 full-image PSNR=43.604 dB elapsed=13.0s
+large  step=2000 full-image PSNR=43.376 dB elapsed=13.8s
+FINISHED brick_photo/large: FP32 43.376, uint8 43.254
+
+Training grass/small
+small  step=   0 full-image PSNR=16.213 dB elapsed=0.0s
+small  step= 100 full-image PSNR=18.144 dB elapsed=0.4s
+small  step= 200 full-image PSNR=18.776 dB elapsed=0.7s
+small  step= 300 full-image PSNR=18.975 dB elapsed=1.0s
+small  step= 400 full-image PSNR=19.072 dB elapsed=1.4s
+small  step= 500 full-image PSNR=19.153 dB elapsed=1.8s
+small  step= 600 full-image PSNR=19.197 dB elapsed=2.2s
+small  step= 700 full-image PSNR=19.240 dB elapsed=2.6s
+small  step= 800 full-image PSNR=19.256 dB elapsed=2.9s
+small  step= 900 full-image PSNR=19.283 dB elapsed=3.3s
+small  step=1000 full-image PSNR=19.297 dB elapsed=3.6s
+small  step=1100 full-image PSNR=19.316 dB elapsed=4.0s
+small  step=1200 full-image PSNR=19.330 dB elapsed=4.3s
+small  step=1300 full-image PSNR=19.336 dB elapsed=4.7s
+small  step=1400 full-image PSNR=19.330 dB elapsed=5.1s
+small  step=1500 full-image PSNR=19.350 dB elapsed=5.4s
+small  step=1600 full-image PSNR=19.359 dB elapsed=5.8s
+small  step=1700 full-image PSNR=19.369 dB elapsed=6.1s
+small  step=1800 full-image PSNR=19.377 dB elapsed=6.4s
+small  step=1900 full-image PSNR=19.385 dB elapsed=6.8s
+small  step=2000 full-image PSNR=19.387 dB elapsed=7.2s
+FINISHED grass/small: FP32 19.387, uint8 19.379
+
+Training grass/medium
+medium step=   0 full-image PSNR=16.005 dB elapsed=0.0s
+medium step= 100 full-image PSNR=18.157 dB elapsed=0.4s
+medium step= 200 full-image PSNR=18.582 dB elapsed=0.9s
+medium step= 300 full-image PSNR=19.024 dB elapsed=1.3s
+medium step= 400 full-image PSNR=19.228 dB elapsed=1.7s
+medium step= 500 full-image PSNR=19.365 dB elapsed=2.1s
+medium step= 600 full-image PSNR=19.461 dB elapsed=2.5s
+medium step= 700 full-image PSNR=19.518 dB elapsed=3.0s
+medium step= 800 full-image PSNR=19.551 dB elapsed=3.5s
+medium step= 900 full-image PSNR=19.620 dB elapsed=3.9s
+medium step=1000 full-image PSNR=19.635 dB elapsed=4.4s
+medium step=1100 full-image PSNR=19.678 dB elapsed=4.8s
+medium step=1200 full-image PSNR=19.659 dB elapsed=5.2s
+medium step=1300 full-image PSNR=19.746 dB elapsed=5.6s
+medium step=1400 full-image PSNR=19.774 dB elapsed=6.0s
+medium step=1500 full-image PSNR=19.782 dB elapsed=6.5s
+medium step=1600 full-image PSNR=19.785 dB elapsed=6.9s
+medium step=1700 full-image PSNR=19.834 dB elapsed=7.3s
+medium step=1800 full-image PSNR=19.848 dB elapsed=7.8s
+medium step=1900 full-image PSNR=19.861 dB elapsed=8.2s
+medium step=2000 full-image PSNR=19.875 dB elapsed=8.6s
+FINISHED grass/medium: FP32 19.875, uint8 19.868
+
+Training grass/large
+large  step=   0 full-image PSNR=15.854 dB elapsed=0.0s
+large  step= 100 full-image PSNR=20.405 dB elapsed=0.7s
+large  step= 200 full-image PSNR=21.423 dB elapsed=1.3s
+large  step= 300 full-image PSNR=22.151 dB elapsed=1.9s
+large  step= 400 full-image PSNR=22.909 dB elapsed=2.5s
+large  step= 500 full-image PSNR=23.512 dB elapsed=3.1s
+large  step= 600 full-image PSNR=23.887 dB elapsed=3.7s
+large  step= 700 full-image PSNR=24.220 dB elapsed=4.4s
+large  step= 800 full-image PSNR=24.507 dB elapsed=5.0s
+large  step= 900 full-image PSNR=24.733 dB elapsed=5.6s
+large  step=1000 full-image PSNR=24.924 dB elapsed=6.2s
+large  step=1100 full-image PSNR=25.092 dB elapsed=6.9s
+large  step=1200 full-image PSNR=25.191 dB elapsed=7.5s
+large  step=1300 full-image PSNR=25.339 dB elapsed=8.1s
+large  step=1400 full-image PSNR=25.416 dB elapsed=8.8s
+large  step=1500 full-image PSNR=25.558 dB elapsed=9.4s
+large  step=1600 full-image PSNR=25.647 dB elapsed=10.2s
+large  step=1700 full-image PSNR=25.720 dB elapsed=10.9s
+large  step=1800 full-image PSNR=25.804 dB elapsed=11.5s
+large  step=1900 full-image PSNR=25.840 dB elapsed=12.2s
+large  step=2000 full-image PSNR=25.889 dB elapsed=12.8s
+FINISHED grass/large: FP32 25.889, uint8 25.852
+
+Training gravel/small
+small  step=   0 full-image PSNR=16.295 dB elapsed=0.0s
+small  step= 100 full-image PSNR=19.254 dB elapsed=0.4s
+small  step= 200 full-image PSNR=20.004 dB elapsed=0.9s
+small  step= 300 full-image PSNR=20.692 dB elapsed=1.3s
+small  step= 400 full-image PSNR=20.945 dB elapsed=1.8s
+small  step= 500 full-image PSNR=21.068 dB elapsed=2.1s
+small  step= 600 full-image PSNR=21.160 dB elapsed=2.5s
+small  step= 700 full-image PSNR=21.208 dB elapsed=2.8s
+small  step= 800 full-image PSNR=21.261 dB elapsed=3.1s
+small  step= 900 full-image PSNR=21.296 dB elapsed=3.5s
+small  step=1000 full-image PSNR=21.329 dB elapsed=3.8s
+small  step=1100 full-image PSNR=21.350 dB elapsed=4.1s
+small  step=1200 full-image PSNR=21.377 dB elapsed=4.5s
+small  step=1300 full-image PSNR=21.373 dB elapsed=4.9s
+small  step=1400 full-image PSNR=21.403 dB elapsed=5.2s
+small  step=1500 full-image PSNR=21.406 dB elapsed=5.6s
+small  step=1600 full-image PSNR=21.432 dB elapsed=5.9s
+small  step=1700 full-image PSNR=21.434 dB elapsed=6.3s
+small  step=1800 full-image PSNR=21.445 dB elapsed=6.8s
+small  step=1900 full-image PSNR=21.459 dB elapsed=7.2s
+small  step=2000 full-image PSNR=21.458 dB elapsed=7.6s
+FINISHED gravel/small: FP32 21.458, uint8 21.441
+
+Training gravel/medium
+medium step=   0 full-image PSNR=16.269 dB elapsed=0.0s
+medium step= 100 full-image PSNR=19.513 dB elapsed=0.5s
+medium step= 200 full-image PSNR=20.564 dB elapsed=1.0s
+medium step= 300 full-image PSNR=21.196 dB elapsed=1.5s
+medium step= 400 full-image PSNR=21.590 dB elapsed=2.0s
+medium step= 500 full-image PSNR=21.807 dB elapsed=2.4s
+medium step= 600 full-image PSNR=21.951 dB elapsed=2.9s
+medium step= 700 full-image PSNR=22.088 dB elapsed=3.5s
+medium step= 800 full-image PSNR=22.170 dB elapsed=4.0s
+medium step= 900 full-image PSNR=22.217 dB elapsed=4.5s
+medium step=1000 full-image PSNR=22.281 dB elapsed=5.0s
+medium step=1100 full-image PSNR=22.342 dB elapsed=5.5s
+medium step=1200 full-image PSNR=22.390 dB elapsed=6.0s
+medium step=1300 full-image PSNR=22.442 dB elapsed=6.4s
+medium step=1400 full-image PSNR=22.420 dB elapsed=6.8s
+medium step=1500 full-image PSNR=22.492 dB elapsed=7.2s
+medium step=1600 full-image PSNR=22.533 dB elapsed=7.7s
+medium step=1700 full-image PSNR=22.531 dB elapsed=8.1s
+medium step=1800 full-image PSNR=22.540 dB elapsed=8.5s
+medium step=1900 full-image PSNR=22.610 dB elapsed=8.9s
+medium step=2000 full-image PSNR=22.643 dB elapsed=9.3s
+FINISHED gravel/medium: FP32 22.643, uint8 22.616
+
+Training gravel/large
+large  step=   0 full-image PSNR=16.321 dB elapsed=0.0s
+large  step= 100 full-image PSNR=23.274 dB elapsed=0.7s
+large  step= 200 full-image PSNR=24.790 dB elapsed=1.4s
+large  step= 300 full-image PSNR=26.285 dB elapsed=2.0s
+large  step= 400 full-image PSNR=27.475 dB elapsed=2.6s
+large  step= 500 full-image PSNR=28.274 dB elapsed=3.2s
+large  step= 600 full-image PSNR=28.862 dB elapsed=3.8s
+large  step= 700 full-image PSNR=29.206 dB elapsed=4.5s
+large  step= 800 full-image PSNR=29.545 dB elapsed=5.1s
+large  step= 900 full-image PSNR=29.807 dB elapsed=5.7s
+large  step=1000 full-image PSNR=29.975 dB elapsed=6.4s
+large  step=1100 full-image PSNR=30.227 dB elapsed=7.0s
+large  step=1200 full-image PSNR=30.336 dB elapsed=7.7s
+large  step=1300 full-image PSNR=30.252 dB elapsed=8.5s
+large  step=1400 full-image PSNR=30.601 dB elapsed=9.3s
+large  step=1500 full-image PSNR=30.710 dB elapsed=10.1s
+large  step=1600 full-image PSNR=30.822 dB elapsed=10.8s
+large  step=1700 full-image PSNR=30.764 dB elapsed=11.4s
+large  step=1800 full-image PSNR=30.771 dB elapsed=12.0s
+large  step=1900 full-image PSNR=31.066 dB elapsed=12.7s
+large  step=2000 full-image PSNR=31.036 dB elapsed=13.3s
+FINISHED gravel/large: FP32 31.036, uint8 30.960

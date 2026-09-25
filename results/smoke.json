@@ -1,0 +1,44 @@
+{
+  "history": [
+    {
+      "step": 0,
+      "psnr": 12.177772671125691,
+      "elapsed_seconds": 0.004128790998947807
+    },
+    {
+      "step": 100,
+      "psnr": 38.43262572172354,
+      "elapsed_seconds": 0.373262708002585
+    },
+    {
+      "step": 200,
+      "psnr": 43.27511680687315,
+      "elapsed_seconds": 0.7361854579939973
+    },
+    {
+      "step": 300,
+      "psnr": 44.12871541460275,
+      "elapsed_seconds": 1.1029206660023192
+    }
+  ],
+  "minibatch_losses": [
+    {
+      "step": 100,
+      "minibatch_mse": 0.00014930099132470787
+    },
+    {
+      "step": 200,
+      "minibatch_mse": 4.8095254896907136e-05
+    },
+    {
+      "step": 300,
+      "minibatch_mse": 4.6929981181165203e-05
+    }
+  ],
+  "seed": 674,
+  "steps": 300,
+  "batch_size": 16384,
+  "lr": 0.01,
+  "device": "cpu",
+  "seconds": 1.1029660829954082
+}

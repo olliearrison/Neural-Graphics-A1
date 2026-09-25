@@ -1,0 +1,6 @@
+torch>=2.6
+numpy>=2.0
+Pillow>=11
+matplotlib>=3.9
+reportlab>=4.0
+pypdf>=5.0

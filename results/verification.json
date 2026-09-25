@@ -1,0 +1,223 @@
+{
+  "status": "passed",
+  "baseline_count": 6,
+  "neural_files": 36,
+  "checked": [
+    {
+      "texture": "gradient",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 56.78551121982153
+    },
+    {
+      "texture": "gradient",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 55.680599321271764
+    },
+    {
+      "texture": "gradient",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 56.78572035586531
+    },
+    {
+      "texture": "gradient",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 56.47129106350208
+    },
+    {
+      "texture": "gradient",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 57.228014546284484
+    },
+    {
+      "texture": "gradient",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 56.99418148135013
+    },
+    {
+      "texture": "bricks",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 32.87702003607454
+    },
+    {
+      "texture": "bricks",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 32.475852571371014
+    },
+    {
+      "texture": "bricks",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 35.76491608374835
+    },
+    {
+      "texture": "bricks",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 35.636139045126065
+    },
+    {
+      "texture": "bricks",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 39.68437291408018
+    },
+    {
+      "texture": "bricks",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 39.68873066078112
+    },
+    {
+      "texture": "clouds",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 39.058504055732
+    },
+    {
+      "texture": "clouds",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 38.99318739835956
+    },
+    {
+      "texture": "clouds",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 40.47330998830492
+    },
+    {
+      "texture": "clouds",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 40.42623521751733
+    },
+    {
+      "texture": "clouds",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 49.52071153268672
+    },
+    {
+      "texture": "clouds",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 49.406558102215
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 32.25670347257947
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 32.08428244464466
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 35.12158253762574
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 34.92590543818027
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 43.37638140906533
+    },
+    {
+      "texture": "brick_photo",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 43.25380734355334
+    },
+    {
+      "texture": "grass",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 19.38697693189785
+    },
+    {
+      "texture": "grass",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 19.379291130655282
+    },
+    {
+      "texture": "grass",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 19.87505767079997
+    },
+    {
+      "texture": "grass",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 19.86787778845659
+    },
+    {
+      "texture": "grass",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 25.889073033667948
+    },
+    {
+      "texture": "grass",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 25.852249127631495
+    },
+    {
+      "texture": "gravel",
+      "architecture": "small",
+      "mode": "float32",
+      "psnr": 21.45849503494885
+    },
+    {
+      "texture": "gravel",
+      "architecture": "small",
+      "mode": "uint8",
+      "psnr": 21.44104412997404
+    },
+    {
+      "texture": "gravel",
+      "architecture": "medium",
+      "mode": "float32",
+      "psnr": 22.64274918312184
+    },
+    {
+      "texture": "gravel",
+      "architecture": "medium",
+      "mode": "uint8",
+      "psnr": 22.616299782893115
+    },
+    {
+      "texture": "gravel",
+      "architecture": "large",
+      "mode": "float32",
+      "psnr": 31.0363464794688
+    },
+    {
+      "texture": "gravel",
+      "architecture": "large",
+      "mode": "uint8",
+      "psnr": 30.96018004190562
+    }
+  ]
+}

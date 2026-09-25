@@ -1,0 +1,35 @@
+[
+  {
+    "name": "brick_photo",
+    "file": "own/brick_photo.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/brick.png",
+    "original_url": "https://ambientcg.com/view?id=Bricks025",
+    "credit": "CC0Textures Bricks25; transformed by scikit-image",
+    "license": "CC0-1.0",
+    "license_evidence": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.brick",
+    "sha256": "7966caf324f6ba843118d98f7a07746d22f6a343430add0233eca5f6eaaa8fcf",
+    "preprocessing": "512x512 source used without resizing; grayscale replicated into three RGB channels at load time."
+  },
+  {
+    "name": "grass",
+    "file": "own/grass.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/grass.png",
+    "original_url": "https://www.deviantart.com/linolafett/art/Grass-01-434853879",
+    "credit": "linolafett, Grass 01; cropped by scikit-image",
+    "license": "CC0-1.0",
+    "license_evidence": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.grass",
+    "sha256": "b6b6022426b38936c43a4ac09635cd78af074e90f42ffa8227ac8b7452d39f89",
+    "preprocessing": "512x512 source used without resizing; grayscale replicated into three RGB channels at load time."
+  },
+  {
+    "name": "gravel",
+    "file": "own/gravel.png",
+    "download_url": "https://raw.githubusercontent.com/scikit-image/scikit-image/v0.25.2/skimage/data/gravel.png",
+    "original_url": "https://ambientcg.com/view?id=Gravel004",
+    "credit": "CC0Textures Gravel04; cropped by scikit-image",
+    "license": "CC0-1.0",
+    "license_evidence": "https://scikit-image.org/docs/0.25.x/api/skimage.data.html#skimage.data.gravel",
+    "sha256": "c48615b451bf1e606fbd72c0aa9f8cc0f068ab7111ef7d93bb9b0f2586440c12",
+    "preprocessing": "512x512 source used without resizing; grayscale replicated into three RGB channels at load time."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "texture": "brick_photo",
+  "method": "s3tc",
+  "psnr": 39.20733078606227,
+  "stored_bytes": 131072,
+  "raw_bytes": 786432,
+  "ratio": 0.16666666666666666,
+  "factor": 6.0
+}

@@ -1,0 +1,17 @@
+{
+  "brick_photo": {
+    "high_frequency_energy_fraction": 0.09227817319994566,
+    "threshold_cycles_per_pixel": 0.125,
+    "definition": "Mean-subtracted grayscale, separable Hann window, 2D FFT squared magnitude; radial frequency > 0.125 cycles/pixel."
+  },
+  "grass": {
+    "high_frequency_energy_fraction": 0.43291688291617975,
+    "threshold_cycles_per_pixel": 0.125,
+    "definition": "Mean-subtracted grayscale, separable Hann window, 2D FFT squared magnitude; radial frequency > 0.125 cycles/pixel."
+  },
+  "gravel": {
+    "high_frequency_energy_fraction": 0.24825442181188842,
+    "threshold_cycles_per_pixel": 0.125,
+    "definition": "Mean-subtracted grayscale, separable Hann window, 2D FFT squared magnitude; radial frequency > 0.125 cycles/pixel."
+  }
+}
